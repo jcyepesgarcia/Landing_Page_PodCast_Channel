@@ -1,0 +1,59 @@
+/* Footer section style for Mobile 320px Layout */
+
+footer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 24px 45px 31px;
+
+    p {
+        margin-bottom: 16px;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+
+    .social-icons {
+        width: 227px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+         a {
+            display: block;
+            text-decoration: none;
+         } 
+    }
+}
+
+/* Footer section style for Tablet 768px Layout */
+
+@media screen and (min-width: 768px) {
+    footer {
+        padding: 24px 45px;
+        flex-direction: row;
+        justify-content: space-between;
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+/* Footer section style for Laptop 1024px Layout */
+
+@media screen and (min-width: 1024px) {
+    footer {
+        padding: 36px 100px;
+    }
+}
+
+/* Footer section style for Desktop 1440px Layout */
+
+ @media screen and (min-width: 1440px) {
+    p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}

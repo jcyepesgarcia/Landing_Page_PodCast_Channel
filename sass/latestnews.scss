@@ -1,0 +1,77 @@
+/* Latestnews section style for Mobile 320px Layout */
+
+.latestnews-container {
+    background: linear-gradient(#0000FF, #0000A3);
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 10%);
+    padding: 64px 16px 67px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    h2 {
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+
+    .btn2{
+        display: block;
+        text-decoration: none;
+        width: 288px;
+        height: 48px;
+        background: #00F3BB;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 13px 0px;
+    }
+}
+
+/* Latestnews section style for Tablet 768px Layout */
+
+@media screen and (min-width: 768px){
+
+    .latestnews-container {
+        clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 20%);
+        padding-top: 84px;
+    }
+
+}
+
+/* Latestnews section style for Laptop 1024px Layout */
+
+@media screen and (min-width: 1024px){
+
+    .latestnews-container {
+        clip-path: polygon(0% 100%, 100% 100%, 100% 0%, 0% 30%);
+        padding: 180px 0 100px 0;
+    }
+
+    .btn2:hover {
+        background-image: linear-gradient(to left, #0000FE, #00F0B8);
+        color: #FFFFFF;
+    }
+}
+
+/* Latestnews section style for Desktop 1440px Layout */
+
+@media screen and (min-width: 1440px){
+
+    .latestnews-container {
+        padding: 213px 0 151px 0;
+
+        h2 {
+            font-size: 48px;
+        }
+
+        .btn2 {
+            font-size: 18px;
+            line-height: 24px;
+            width: 345px;
+        }
+    }
+}

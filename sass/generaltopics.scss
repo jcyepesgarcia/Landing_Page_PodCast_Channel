@@ -1,0 +1,83 @@
+/* Generaltopics section style for Mobile 320px Layout */
+
+.generaltopics-container {
+    padding: 0 16px;
+
+    .title-generaltopics-container {
+        padding-bottom: 37px;
+    }
+
+    .svg-generaltopics-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+
+        .topics-item {
+            display: block;
+            text-decoration: none;
+            align-self: stretch;
+            flex: 0 0 260px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            padding-bottom: 52px;
+            
+            .topics-img {
+                padding-bottom: 13px;
+            }
+
+            .title-svg-item-even, .title-svg-item-odd {
+                font-size: 24px;
+                letter-spacing: 0;
+                text-align: center;
+            }
+            
+            .title-svg-item-even {
+                width: 220px;
+                height: 50px;
+            }
+        }
+    }    
+}
+
+/* Generaltopics section style for Tablet 768px Layout */
+
+@media screen and (min-width: 760px) {
+
+    .generaltopics-container {
+        padding: 0 50px; 
+
+        .title-generaltopics-container {
+            padding-bottom: 37px;
+        }
+    } 
+}
+
+
+/* Generaltopics section style for Laptop 1024px Layout */
+
+@media screen and (min-width: 1024px) {
+
+    .generaltopics-container {
+        padding: 0 100px;
+
+        .title-generaltopics-container {
+            padding-bottom: 56px;
+        }
+    }
+}
+
+
+/* Generaltopics section style for Desktop 1440px Layout */
+
+@media screen and (min-width: 1440px) {
+
+    .generaltopics-container {
+        padding: 0 200px;
+
+        .title-generaltopics-container {
+            font-size: 48px;
+        }
+    }
+}
